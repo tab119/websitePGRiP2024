@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGA PGRiP 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                    <li><a href="sponsor.html">SPONSORS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>British Geophysical Association<br>Post-Graduate Research in Progress 2024</h1>
+        <p>
+            This website is currently under construction!<br><br>wonder if anyone will see this lol
+        </p>
+        <a href="" class="hero-btn">hello world</a>
+    </div>
+
+    </section>
+
+
+
+<!---------- Section About ---------->
+
+
+    <!----<section class="about">
+        <h1>Some stuff about BGA and PGRiP</h1>
+        <p>Some more stuff to fill in at the right time</p>
+
+
+    </section> ---->
+
+
+    <!--- Footer -->
+
+
+    <section class="footer">
+        <h4>BGA PGRiP 2024<br></h4>
+        <p> August 29-30th<br>Royal School of Mines</p>
+        <div class="icons">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+
+
+    </section>
+    
+
+<!---------- little javascript to toggle between menu show and hide by changing the right allignment to either on right margin or 200 poixels to the right of the allignment ---------->
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
